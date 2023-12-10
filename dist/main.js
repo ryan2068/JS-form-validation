@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector("#email");document.querySelector("#country"),document.querySelector("#zip-code"),document.querySelector("#password"),document.querySelector("#password-confirmation"),e.addEventListener("input",(t=>{e.validity.valid?errorSpan1.textContent="":emptyString(errorSpan1)}))})();

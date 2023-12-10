@@ -1,0 +1,22 @@
+html, body {
+    margin: 5rem;
+    background-color: rgb(132, 216, 255);
+    
+}
+
+
+.form-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: .32rem;
+}
+
+input {
+    width: 15vw;
+}
+
+input:invalid {
+    border: solid 2px lightcoral;
+}
