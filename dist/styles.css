@@ -20,3 +20,16 @@ input {
 input:invalid {
     border: solid 2px lightcoral;
 }
+
+input:valid {
+    border: solid 7px lightgreen;
+    border-radius: 1rem;
+    
+}
+
+.error {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 123, 123);
+    width: 23vw;
+}
